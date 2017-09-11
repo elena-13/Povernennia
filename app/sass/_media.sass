@@ -1,0 +1,206 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	body.ishome .site-header .top-line nav .main-menu li
+		margin-right: 15px
+	h1
+		font-size: 35px
+	.bottom-line 
+		.item
+			margin: 5px	
+			padding-top: 30px
+			span
+				font-size: 16px
+			p 
+				font-size: 13px
+
+	.content-wrapper
+		.descr-company p 
+			font-size: 13px	
+		img
+			max-width: 120px 
+			display: block
+		.descr-photo
+			p
+				font-size: 12px
+	.products .item img
+		max-width: 100px
+	.owl-carousel .owl-nav .arrow-left
+		&::before	
+			left: 10px
+			font-size: 35px
+	.owl-carousel .owl-nav .arrow-right
+		&::before	
+			right: 10px	
+			font-size: 35px
+	.article-wrapper
+		width: 95%	
+	.article-wrapper .descr-article p
+		font-size: 14px	
+	.article-wrapper img
+		padding: 15% 0
+	.descr-article h3 a 
+		font-size: 18px
+
+	.ribbbon
+		height: 50px
+		h3
+		 font-size: 16px
+	.contact-form-content
+		padding-top: 115px
+		width: 85%	
+		height: 421px
+		input
+			padding: 5px 8px
+		textarea 
+			height: 90px
+	.button 
+		margin: auto
+		float: none
+		right: 0
+	.contact-wrapper .contact-items p span
+		font-size: 14px	
+	footer .company 
+		display: block	
+		text-align: center
+		margin: 0
+	footer ul.main-menu
+		display: block
+		top: 100px	
+	
+
+
+@media screen and (max-width: 767px) and (min-width: 478px)
+	.article-wrapper img
+		padding: 3% 0
+		display: block
+		margin: auto
+		width: 50%
+	.contact-items
+		p 
+			text-align: center	
+	.contact-form 
+		width: 65%
+		margin-top: 30px
+		&-content
+			width: 91%		
+	footer ul.main-menu
+		position: static
+		margin: auto
+		width: 93%
+		padding-top: 30px			
+
+@media screen and (max-width: 1183px) and (min-width: 767px)
+	.article-wrapper img
+		padding: 15% 0
+
+						
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	body.ishome .site-header .top-line
+		background-color: rgba($gray, 0.6)
+		padding: 5px 0
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+
+	.logo img
+		float: left
+		width: 55px	
+	h1 
+		font-size: 25px
+		text-align: left
+		margin-top: 238px
+	.site-header
+		position: static	
+	.bottom-line
+		position: static
+		margin-top: 140px
+		padding-bottom: 20px
+		.item 
+			display: block
+			margin: auto
+			padding-top: 20px
+	.article-wrapper img
+		padding: 0 0
+	.contact-form 
+		width: 85%
+		margin-top: 30px
+		&-content
+			width: 87%
+	.point 
+		&:nth-child(2) 
+			width: 50%
+			height: 50%
+		&:nth-child(4)
+			left: 0
+		&:nth-child(5)
+			width: 40%	
+		&:nth-child(6) 
+			left: 60%
+			width: 40%
+	@keyframes slidein3 
+		0% 
+			width: 50%
+		100% 
+			width: 60%		
+	
+	@keyframes slidein5 
+		0% 
+			width: 50%
+		100% 
+			width: 12.5%		
+	footer ul.main-menu
+		position: static
+		width: 45%
+		padding-left: 15px
+		padding-top: 25px
+		margin: 0 15px
+		
+	
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.contact-form 
+		width: 100%
+		&-content
+			width: 85%
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
